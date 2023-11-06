@@ -1,6 +1,7 @@
 {
 	"name": "react-hello",
 	"version": "1.0.1",
+	"homepage": "http://MartaFagundez.github.io/4g-react-landing-page",
 	"engines": {
 		"node": "16.x"
 	},
@@ -9,7 +10,9 @@
 	"scripts": {
 		"start": "webpack-dev-server --mode development",
 		"build": "webpack --mode development",
-		"deploy:github": "node deploy-to-github.js"
+		"deploy:github": "node deploy-to-github.js",
+		"predeploy" : "npm run build",
+		"deploy" : "gh-pages -d build"
 	},
 	"author": "Alejandro Sanchez",
 	"license": "ISC",
