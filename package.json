@@ -1,7 +1,7 @@
 {
 	"name": "react-hello",
 	"version": "1.0.1",
-	"homepage": "https://MartaFagundez.github.io/4g-react-landing-page",
+	"homepage": "https://martafagundez.github.io/4g-react-landing-page/",
 	"engines": {
 		"node": "16.x"
 	},
